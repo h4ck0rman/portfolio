@@ -1,10 +1,8 @@
+
 <script>
-    let title = "Hello World!";
+    import Cmd from '../components/cmd.svelte';
 </script>
 
-<h1>{title}</h1>
+<Cmd/>
 
 
-<style>
-
-</style>
