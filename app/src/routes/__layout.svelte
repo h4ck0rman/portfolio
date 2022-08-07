@@ -5,6 +5,6 @@
 </script>
 
 <NavBar/>
-<slot></slot>
 <Links/>
+<slot></slot>
 

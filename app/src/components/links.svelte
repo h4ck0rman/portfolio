@@ -28,13 +28,13 @@
     ]
 </script>
 
-<div class='container rounded-md hover:bg-slate-400 fixed riig'>
+<div class='fixed bottom-0 left-0 py-10 px-3'>
     <ul>
         {#each links as link}
-        <div class="rounded h-7 w-7 bg-transparent hover:bg-orange-500">
+        <div class="rounded bg-transparent hover:rounded-xl opacity-20 hover:opacity-90 hover:scale-150 hover:bg-neutral-800 block py-2 px-2 ">
             <li >
                 <a href={link.link} target="_blank">
-                    <img src={link.logo} alt={link.logo_alt}/>      
+                    <img src={link.logo} alt={link.logo_alt} class="object-contain h-7 w-7"/>      
                 </a>
             </li>
         </div>
